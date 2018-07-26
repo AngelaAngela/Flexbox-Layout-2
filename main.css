@@ -1,0 +1,72 @@
+
+
+
+body {
+	margin: 0;
+}
+
+section {
+	height: 100vh;
+	display; flex;
+	flex-wrap: wrap;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	color: white;
+	height: 33.333%;
+	font-size: 3rem;
+	text-shadow: text-shadow: 2px 2px 4px #000000; 
+	box-sizing: border-box;
+	border: 1px solid black;
+	/*border-box allows to outline without adding pixels*/
+}
+
+
+.one{
+	background-color: #f44336;
+	color: white;
+}
+
+.two {
+	background-color:  #FF9800;
+	color: white;
+}
+
+.three {
+	 background-color: #FFEB3B;
+	 color: white;
+}	
+
+.four {
+	background-color:  #8BC34A;
+	color: white;
+
+}
+
+.five {
+	background-color:  #2196F3;
+	color: white;
+	
+
+}
+
+.six {
+	 background-color:  #9C27B0;
+	 color: white;
+	}
+
+
+@media only screen and (min-width: 600px){
+
+	
+
+	div {
+		width: 33.333%;
+		height: 50%;
+	}
+	
+}
